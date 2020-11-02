@@ -33,6 +33,16 @@ const SideBare = () => {
                 Link 3
               </a>
             </div>
+            <div className="side-bare__item">
+              <a href="#" className="side-bare__items">
+                Link 4
+              </a>
+            </div>
+            <div className="side-bare__item">
+              <a href="#" className="side-bare__items">
+                Link 4
+              </a>
+            </div>
           </div>
         </div>
       </div>
