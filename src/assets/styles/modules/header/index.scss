@@ -1,0 +1,73 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 8px 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+
+  background: $blue-gradient;
+
+  & > div > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo {
+    position: relative;
+    margin-right: 12px;
+  }
+
+  .align-left {
+    position: relative;
+    margin-right: 36px;
+  }
+
+  .search {
+    position: relative;
+  }
+
+  .notification {
+    position: relative;
+    margin-left: auto;
+    margin-right: 20px;
+
+    &__icon {
+      position: relative;
+      width: 18px;
+      height: 18px;
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .messages {
+    position: relative;
+    margin-right: 17px;
+    width: 18px;
+    height: 18px;
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .avatar {
+    position: relative;
+  }
+}
