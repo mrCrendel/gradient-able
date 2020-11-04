@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f5eb3d-915b-429b-ac27-2613e3d5be06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/Menustyle/Menu List/feather-icon/chevron-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/modules/side-bare/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/modules/side-bare/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SideBare/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SideBare/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/icons/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604123080757</updated>
       <workItem from="1604123082066" duration="18905000" />
+      <workItem from="1604417123826" duration="7810000" />
     </task>
     <servers />
   </component>
@@ -93,25 +87,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="349" key="GridCell.Tab.0.bottom" timestamp="1604290242992">
+    <state width="1419" height="334" key="GridCell.Tab.0.bottom" timestamp="1604375015929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="349" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604290242992" />
-    <state width="1419" height="349" key="GridCell.Tab.0.center" timestamp="1604290242991">
+    <state width="1419" height="334" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
+    <state width="1419" height="334" key="GridCell.Tab.0.center" timestamp="1604375015929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="349" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604290242991" />
-    <state width="1419" height="349" key="GridCell.Tab.0.left" timestamp="1604290242989">
+    <state width="1419" height="334" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
+    <state width="1419" height="334" key="GridCell.Tab.0.left" timestamp="1604375015928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="349" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604290242989" />
-    <state width="1419" height="349" key="GridCell.Tab.0.right" timestamp="1604290242991">
+    <state width="1419" height="334" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604375015928" />
+    <state width="1419" height="334" key="GridCell.Tab.0.right" timestamp="1604375015929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="349" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604290242991" />
-    <state x="386" y="207" width="668" height="486" key="find.popup" timestamp="1604218700616">
+    <state width="1419" height="334" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
+    <state x="386" y="207" width="817" height="550" key="find.popup" timestamp="1604460126096">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="386" y="207" width="668" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1604218700616" />
+    <state x="386" y="207" width="817" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1604460126096" />
   </component>
 </project>
