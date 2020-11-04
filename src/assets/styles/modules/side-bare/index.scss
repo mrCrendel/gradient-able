@@ -1,6 +1,6 @@
 .side-bare {
   background-color: white;
-  width: 250px;
+  width: 235px;
   padding: 2px 0;
   height: 100%;
 
@@ -8,7 +8,7 @@
     width: 100%;
 
     &:not(:first-child) {
-      border-top: 1px solid #e2e5e8;
+      border-top: 1px solid $light-grey;
     }
   }
 
@@ -71,5 +71,46 @@
     width: 100%;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  &__upgrade {
+    width: 90%;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: $light-grey;
+
+    color: $dark-grey;
+    text-align: center;
+
+    svg {
+      margin-bottom: 11px;
+    }
+
+    h4 {
+      line-height: 21px;
+      margin-bottom: 6px;
+    }
+
+    p {
+      line-height: 21px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      background: $blue;
+      border-radius: 5px;
+      padding: 5px 10px;
+
+      font-weight: 500;
+      text-align: center;
+      text-decoration-line: underline;
+
+      color: #ffffff;
+
+      &:hover {
+        color: $light-blue;
+      }
+    }
   }
 }

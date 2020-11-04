@@ -8,6 +8,7 @@ import {
   MapIcon,
   LockIcon,
   LayoutSample,
+  SunsetIcon,
 } from "./../icons";
 import SideBarLink from "./components/SideBarLink";
 import {CubeIcon} from "../icons";
@@ -52,10 +53,11 @@ const SideBare = () => {
         />
         <SideBarLink title={"Sample page"} icon={LayoutSample} />
       </div>
-      <div className="upgrade__container">
-        <h6>Download Pro</h6>
+      <div className="side-bare__upgrade">
+        <SunsetIcon />
+        <h4>Download Pro</h4>
         <p>Getting more features with pro version</p>
-        <button>Upgrade Now</button>
+        <a href="#">Upgrade Now</a>
       </div>
     </div>
   );

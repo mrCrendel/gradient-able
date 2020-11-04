@@ -8,6 +8,7 @@ import ChartIcon from "./ChartIcon";
 import MapIcon from "./MapIcon";
 import LockIcon from "./LockIcon";
 import LayoutSample from "./LayoutSample";
+import SunsetIcon from "./SunsetIcon";
 
 export {
   HomeIcon,
@@ -20,4 +21,5 @@ export {
   MapIcon,
   LockIcon,
   LayoutSample,
+  SunsetIcon,
 };
