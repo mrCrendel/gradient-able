@@ -8,7 +8,7 @@ const Base = ({children, routerProps}) => {
       <Header />
       <div className="container">
         <SideBare />
-        <div className="content">{children}</div>
+        <div className="container__inner">{children}</div>
       </div>
     </div>
   );

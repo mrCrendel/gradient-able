@@ -9,6 +9,10 @@ import MapIcon from "./MapIcon";
 import LockIcon from "./LockIcon";
 import LayoutSample from "./LayoutSample";
 import SunsetIcon from "./SunsetIcon";
+import ShoppingCart from "./ShoppingCart";
+import AwardIcon from "./AwardIcon";
+import RepeatIcon from "./RepeatIcon";
+import TagIcon from "./TagIcon";
 
 export {
   HomeIcon,
@@ -22,4 +26,8 @@ export {
   LockIcon,
   LayoutSample,
   SunsetIcon,
+  ShoppingCart,
+  AwardIcon,
+  RepeatIcon,
+  TagIcon,
 };

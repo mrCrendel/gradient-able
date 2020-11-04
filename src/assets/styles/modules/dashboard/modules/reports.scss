@@ -1,0 +1,53 @@
+.reports {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 20px;
+  width: 261px;
+  height: 131px;
+  color: white;
+
+  transition: 0.2s;
+
+  &:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  &__title {
+    font-weight: $bold-weight;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: $bold-weight;
+    font-size: 32px;
+  }
+
+  &__bottom-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &.blue {
+    background: $blue-gradient;
+  }
+  &.green {
+    background: $green-gradient;
+  }
+  &.orange {
+    background: $orange-gradient;
+  }
+  &.red {
+    background: $red-gradient;
+  }
+}
