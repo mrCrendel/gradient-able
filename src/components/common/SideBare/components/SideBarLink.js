@@ -1,23 +1,22 @@
-import React, {useState} from "react";
+import React, {createRef, useState} from "react";
 import {ChevronRightIcon} from "../../icons";
 import cn from "classnames";
-import SideBarDropdown from "./SideBarDropdown";
 
 const SideBarLink = ({title, icon, components}) => {
   const [isActive, setIsActive] = useState(false);
   const isCollapsible = !!components?.length;
+  const refCollapse = createRef();
 
-  const handleClick = (e) => {
-    if (isCollapsible) {
-      if (e) {
-        const content = e.nativeEvent.target.nextElementSibling;
-        if (content.style.maxHeight) {
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
+  const handleClick = () => {
+    if (isCollapsible && refCollapse?.current) {
+      const content = refCollapse.current;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
       }
     }
+
     setIsActive(!isActive);
   };
 
@@ -30,7 +29,15 @@ const SideBarLink = ({title, icon, components}) => {
             <span>{title}</span>
             {isCollapsible && <ChevronRightIcon className="chevron-right-icon" />}
           </button>
-          {isCollapsible && <SideBarDropdown components={components} />}
+          {isCollapsible && (
+            <div className="side-bare__dropdown" ref={refCollapse}>
+              {components.map((item) => (
+                <button href={item.url} className="side-bare__dropdown__items">
+                  {item.title}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </>

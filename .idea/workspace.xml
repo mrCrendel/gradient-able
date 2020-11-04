@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="06f5eb3d-915b-429b-ac27-2613e3d5be06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/svg/Menustyle/Menu List/feather-icon/chevron-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/modules/side-bare/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/modules/side-bare/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SideBare/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SideBare/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SideBare/components/SideBarDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SideBare/components/SideBarCollapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SideBare/components/SideBarLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SideBare/components/SideBarLink.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604123080757</updated>
       <workItem from="1604123082066" duration="18905000" />
-      <workItem from="1604417123826" duration="7810000" />
+      <workItem from="1604417123826" duration="8123000" />
+      <workItem from="1604493516403" duration="370000" />
     </task>
     <servers />
   </component>
@@ -87,25 +86,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="334" key="GridCell.Tab.0.bottom" timestamp="1604375015929">
+    <state width="1419" height="344" key="GridCell.Tab.0.bottom" timestamp="1604462043486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
-    <state width="1419" height="334" key="GridCell.Tab.0.center" timestamp="1604375015929">
+    <state width="1419" height="344" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604462043486" />
+    <state width="1419" height="344" key="GridCell.Tab.0.center" timestamp="1604462043485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
-    <state width="1419" height="334" key="GridCell.Tab.0.left" timestamp="1604375015928">
+    <state width="1419" height="344" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604462043485" />
+    <state width="1419" height="344" key="GridCell.Tab.0.left" timestamp="1604462043484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604375015928" />
-    <state width="1419" height="334" key="GridCell.Tab.0.right" timestamp="1604375015929">
+    <state width="1419" height="344" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604462043484" />
+    <state width="1419" height="344" key="GridCell.Tab.0.right" timestamp="1604462043485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="334" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604375015929" />
-    <state x="386" y="207" width="817" height="550" key="find.popup" timestamp="1604460126096">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="344" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604462043485" />
+    <state x="386" y="212" width="817" height="550" key="find.popup" timestamp="1604493739159">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="386" y="207" width="817" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1604460126096" />
+    <state x="386" y="212" width="817" height="550" key="find.popup/0.23.1440.823@0.23.1440.823" timestamp="1604493739159" />
   </component>
 </project>
