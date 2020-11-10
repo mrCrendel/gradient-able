@@ -40,3 +40,14 @@ p {
     padding: 30px;
   }
 }
+
+.box {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  }
+}

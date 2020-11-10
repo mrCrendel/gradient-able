@@ -9,7 +9,7 @@ import {
 const Reports = () => {
   return (
     <div className="reports">
-      <div className="report blue">
+      <div className="report blue box">
         <div className="report__title">Orders Received</div>
         <div className="report__content">
           <ShoppingCart />
@@ -20,7 +20,7 @@ const Reports = () => {
           <span>351</span>
         </div>
       </div>
-      <div className="report green">
+      <div className="report green box">
         <div className="report__title">Total Sales</div>
         <div className="report__content">
           <TagIcon />
@@ -31,7 +31,7 @@ const Reports = () => {
           <span>213</span>
         </div>
       </div>
-      <div className="report orange">
+      <div className="report orange box">
         <div className="report__title">Revenue</div>
         <div className="report__content">
           <RepeatIcon />
@@ -42,7 +42,7 @@ const Reports = () => {
           <span>$5,032</span>
         </div>
       </div>
-      <div className="report red">
+      <div className="report red box">
         <div className="report__title">Total Profit</div>
         <div className="report__content">
           <AwardIcon />
