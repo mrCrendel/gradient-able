@@ -2,24 +2,18 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .report {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
-  border-radius: 5px;
-  padding: 20px;
   width: 261px;
   height: 131px;
   color: white;
 
   transition: 0.2s;
-
-  &:hover {
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-  }
 
   &__title {
     font-weight: $bold-weight;
